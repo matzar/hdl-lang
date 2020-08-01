@@ -1,6 +1,6 @@
 # Nand2Tetris HDL Language Support
 
-![gif](https://media.giphy.com/media/MZomrAnYlShdTwDxht/giphy.gif)
+![gif](img/Snippets.gif)
 
 ## Features:
 
@@ -10,7 +10,7 @@
 
 - Press `tab` when you've filled out the snippet and it will create and take you to the new line.
 
-The Syntax Highlighting was developed using Noctis Minimum Theme from [Noctis](img/Snippets.gif).
+The Syntax Highlighting was developed primarly for [Noctis Minimum Theme](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis).
 
 ## Theme examples:
 
