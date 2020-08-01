@@ -18,6 +18,13 @@
     "Snippets",
     "Language Packs"
   ],
+  "keywords": [
+    "hdl",
+    "nand2tetris",
+    "hdl snippets",
+    "hdl syntax",
+    "hdl syntax highlighting"
+  ],
   "contributes": {
     "languages": [
       {
