@@ -1,0 +1,48 @@
+{
+  "name": "hdl-lang",
+  "displayName": "Nand2Tetris HDL",
+  "description": "Extension provides Snippets and Syntax Highlighting for HDL from Nand2Tetris course.",
+  "publisher": "matzar",
+  "version": "0.0.1",
+  "license": "MIT",
+  "icon": "img/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matzar/hdl-lang"
+  },
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Language Packs"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hdl",
+        "aliases": [
+          "HDL"
+        ],
+        "extensions": [
+          ".hdl"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "hdl",
+        "scopeName": "source.hdl",
+        "path": "./syntaxes/hdl.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "hdl",
+        "path": "./snippets/hdl.code-snippets"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "scopeName": "source.hdl",
+  "name": "HDL",
+  "patterns": [
+    {
+      "name": "comment.block",
+      "begin": "\\/\\*",
+      "end": "\\*\\/"
+    },
+    {
+      "name": "comment.line.double-slash",
+      "match": "//.*"
+    },
+    {
+      "name": "constant.numeric",
+      "match": "\\d"
+    },
+    {
+      "name": "support.constant",
+      "match": "(true|false)"
+    },
+    {
+      "name": "storage.type",
+      "match": "CHIP"
+    },
+    {
+      "name": "support.other",
+      "match": "(PARTS|IN|OUT)"
+    },
+    {
+      "name": "support.function",
+      "match": "([A-Z])\\w+(?=\\()"
+    },
+    {
+      "name": "support.class",
+      "match": "([A-Z])\\w+(?=\\s*\\{)"
+    },
+    {
+      "name": "keyword.operator",
+      "match": "[-+*=<>?!|]"
+    }
+  ]
+}
