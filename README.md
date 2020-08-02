@@ -2,7 +2,9 @@
 
 ![gif](img/Snippets.gif)
 
-## Snippets
+## Usage
+
+- To use the snippets and the syntax highlisghting set the langauge mode to HDL.
 
 - Press `ctr`+`space` to see all the 37 chips.
 
