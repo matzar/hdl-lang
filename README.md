@@ -2,7 +2,7 @@
 
 ![gif](img/Snippets.gif)
 
-## Usage
+## HDL Usage
 
 - To use the snippets and the syntax highlisghting set the langauge mode to HDL.
 
