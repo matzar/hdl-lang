@@ -29,7 +29,7 @@
     },
     {
       "name": "support.function",
-      "match": "([A-Z])\\w+(?=\\()"
+      "match": "([A-Z])\\w+(?=\\s*\\()"
     },
     {
       "name": "support.class",
