@@ -1,195 +1,372 @@
 {
   "Add16": {
-    "prefix": ["Add16"],
-    "body": ["Add16(a=$1, b=$2, out=$3);"],
+    "prefix": [
+      "Add16"
+    ],
+    "body": [
+      "Add16(a=$1, b=$2, out=$3);",
+      "$0"
+    ],
     "description": "/* Adds up two 16-bit two's complement values */"
   },
   "ALU": {
-    "prefix": ["ALU"],
+    "prefix": [
+      "ALU"
+    ],
     "body": [
-      "ALU(x=$1, y=$2, zx=$3, nx=$4, zy=$5, ny=$6, f=$7, no=$8, out=$9, zr=$10, ng=$11);"
+      "ALU(x=$1, y=$2, zx=$3, nx=$4, zy=$5, ny=$6, f=$7, no=$8, out=$9, zr=$10, ng=$11);",
+      "$0"
     ],
     "description": "/* Hack ALU */"
   },
   "And": {
-    "prefix": ["And"],
-    "body": ["And(a=$1, b=$2, out=$3);"],
+    "prefix": [
+      "And"
+    ],
+    "body": [
+      "And(a=$1, b=$2, out=$3);",
+      "$0"
+    ],
     "description": "/* And gate */"
   },
   "And16": {
-    "prefix": ["And16"],
-    "body": ["And16(a=$1, b=$2, out=$3);"],
+    "prefix": [
+      "And16"
+    ],
+    "body": [
+      "And16(a=$1, b=$2, out=$3);",
+      "$0"
+    ],
     "description": "/* 16-bit And */"
   },
   "ARegister": {
-    "prefix": ["ARegister"],
-    "body": ["ARegister(in=$1, load=$2, out=$3);"],
+    "prefix": [
+      "ARegister"
+    ],
+    "body": [
+      "ARegister(in=$1, load=$2, out=$3);",
+      "$0"
+    ],
     "description": "/* Address register (built-in) */"
   },
   "Bit": {
-    "prefix": ["Bit"],
-    "body": ["Bit(in=$1, load=$2, out=$3);"],
+    "prefix": [
+      "Bit"
+    ],
+    "body": [
+      "Bit(in=$1, load=$2, out=$3);",
+      "$0"
+    ],
     "description": "/* 1-bit register */"
   },
   "CPU": {
-    "prefix": ["CPU"],
+    "prefix": [
+      "CPU"
+    ],
     "body": [
-      "CPU(inM=$1, instruction=$2, reset=$3, outM=$4, writeM=$5, addressM=$6, pc=$7);"
+      "CPU(inM=$1, instruction=$2, reset=$3, outM=$4, writeM=$5, addressM=$6, pc=$7);",
+      "$0"
     ],
     "description": "/* Data flip-flop gate (built-in) */"
   },
   "DFF": {
-    "prefix": ["DFF"],
-    "body": ["DFF(in=$1, out=$2);"],
+    "prefix": [
+      "DFF"
+    ],
+    "body": [
+      "DFF(in=$1, out=$2);",
+      "$0"
+    ],
     "description": "/* Data flip-flop gate (built-in) */"
   },
   "DMux": {
-    "prefix": ["DMux"],
-    "body": ["DMux(in=$1, sel=$2, a=$3, b=$4);"],
+    "prefix": [
+      "DMux"
+    ],
+    "body": [
+      "DMux(in=$1, sel=$2, a=$3, b=$4);",
+      "$0"
+    ],
     "description": "/* Channels the input to one out of two outputs */"
   },
   "DMux4Way": {
-    "prefix": ["DMux4Way"],
-    "body": ["DMux4Way(in=$1, sel=$2, a=$3, b=$4, c=$5, d=$6);"],
+    "prefix": [
+      "DMux4Way"
+    ],
+    "body": [
+      "DMux4Way(in=$1, sel=$2, a=$3, b=$4, c=$5, d=$6);",
+      "$0"
+    ],
     "description": "/* Channels the input to one out of four outputs */"
   },
   "DMux8Way": {
-    "prefix": ["DMux8Way"],
+    "prefix": [
+      "DMux8Way"
+    ],
     "body": [
-      "DMux4Way(in=$1, sel=$2, a=$3, b=$4, c=$5, d=$6, e=$7, f=$8, g=$9, h=$10);"
+      "DMux4Way(in=$1, sel=$2, a=$3, b=$4, c=$5, d=$6, e=$7, f=$8, g=$9, h=$10);",
+      "$0"
     ],
     "description": "/* Channels the input to one out of eight outputs */"
   },
   "DRegister": {
-    "prefix": ["DRegister"],
-    "body": ["DRegister(in=$1, load=$2, out=$3);"],
+    "prefix": [
+      "DRegister"
+    ],
+    "body": [
+      "DRegister(in=$1, load=$2, out=$3);",
+      "$0"
+    ],
     "description": "/* Data register (built-in) */"
   },
   "HalfAdder": {
-    "prefix": ["HalfAdder"],
-    "body": ["HalfAdder(a=$1, b=$2, sum=$3, carry=$4);"],
+    "prefix": [
+      "HalfAdder"
+    ],
+    "body": [
+      "HalfAdder(a=$1, b=$2, sum=$3, carry=$4);",
+      "$0"
+    ],
     "description": "/* Adds up 2 bits */"
   },
   "FullAdder": {
-    "prefix": ["FullAdder"],
-    "body": ["FullAdder(a=$1, b=$2, c=$3, sum=$4, carry=$5);"],
+    "prefix": [
+      "FullAdder"
+    ],
+    "body": [
+      "FullAdder(a=$1, b=$2, c=$3, sum=$4, carry=$5);",
+      "$0"
+    ],
     "description": "/* Adds up 3 bits */"
   },
   "Inc16": {
-    "prefix": ["Inc16"],
-    "body": ["Inc16(in=$1, out=$2);"],
+    "prefix": [
+      "Inc16"
+    ],
+    "body": [
+      "Inc16(in=$1, out=$2);",
+      "$0"
+    ],
     "description": "/* Sets out to in + 1 */"
   },
   "Keyboard": {
-    "prefix": ["Keyboard"],
-    "body": ["Keyboard(out=$1);"],
+    "prefix": [
+      "Keyboard"
+    ],
+    "body": [
+      "Keyboard(out=$1);",
+      "$0"
+    ],
     "description": "/* Keyboard memory map (built-in) */"
   },
   "Memory": {
-    "prefix": ["Memory"],
-    "body": ["Memory(in=$1, load=$2, address=$3, out=$4);"],
+    "prefix": [
+      "Memory"
+    ],
+    "body": [
+      "Memory(in=$1, load=$2, address=$3, out=$4);",
+      "$0"
+    ],
     "description": "/* Data memory of the Hack platform (RAM) */"
   },
   "Mux": {
-    "prefix": ["Mux"],
-    "body": ["Mux(a=$1, b=$2, sel=$3, out=$4);"],
+    "prefix": [
+      "Mux"
+    ],
+    "body": [
+      "Mux(a=$1, b=$2, sel=$3, out=$4);",
+      "$0"
+    ],
     "description": "/* Selects between two inputs */"
   },
   "Mux16": {
-    "prefix": ["Mux16"],
-    "body": ["Mux16(a=$1, b=$2, sel=$3, out=$4);"],
+    "prefix": [
+      "Mux16"
+    ],
+    "body": [
+      "Mux16(a=$1, b=$2, sel=$3, out=$4);",
+      "$0"
+    ],
     "description": "/* Selects between two 16-bit inputs */"
   },
   "Mux4Way16": {
-    "prefix": ["Mux4Way16"],
-    "body": ["Mux4Way16(a=$1, b=$2, c=$3, d=$4, sel=$5, out=$6);"],
+    "prefix": [
+      "Mux4Way16"
+    ],
+    "body": [
+      "Mux4Way16(a=$1, b=$2, c=$3, d=$4, sel=$5, out=$6);",
+      "$0"
+    ],
     "description": "/* Selects between four 16-bit inputs */"
   },
   "Mux8Way16": {
-    "prefix": ["Mux8Way16"],
+    "prefix": [
+      "Mux8Way16"
+    ],
     "body": [
-      "Mux8Way16(a=$1, b=$2, c=$3, d=$4, e=$5, f=$6, g=$7, h=$8, sel=$9, out=$10);"
+      "Mux8Way16(a=$1, b=$2, c=$3, d=$4, e=$5, f=$6, g=$7, h=$8, sel=$9, out=$10);",
+      "$0"
     ],
     "description": "/* Selects between eight 16-bit inputs */"
   },
   "Nand": {
-    "prefix": ["Nand"],
-    "body": ["Nand(a=$1, b=$2, out=$3);"],
+    "prefix": [
+      "Nand"
+    ],
+    "body": [
+      "Nand(a=$1, b=$2, out=$3);",
+      "$0"
+    ],
     "description": "/* Nand gate (built-in) */"
   },
   "Not16": {
-    "prefix": ["Not16"],
-    "body": ["Not16(in=$1, out=$2);"],
+    "prefix": [
+      "Not16"
+    ],
+    "body": [
+      "Not16(in=$1, out=$2);",
+      "$0"
+    ],
     "description": "/* 16-bit Not */"
   },
   "Not": {
-    "prefix": ["Not"],
-    "body": ["Not(in=$1, out=$2);"],
+    "prefix": [
+      "Not"
+    ],
+    "body": [
+      "Not(in=$1, out=$2);",
+      "$0"
+    ],
     "description": "/* Not gate */"
   },
   "Or": {
-    "prefix": ["Or"],
-    "body": ["Or(a=$1, b=$2, out=$3);"],
+    "prefix": [
+      "Or"
+    ],
+    "body": [
+      "Or(a=$1, b=$2, out=$3);",
+      "$0"
+    ],
     "description": "/* Or gate */"
   },
   "Or8Way": {
-    "prefix": ["Or8Way"],
-    "body": ["Or8Way(in=$1, out=$2);"],
+    "prefix": [
+      "Or8Way"
+    ],
+    "body": [
+      "Or8Way(in=$1, out=$2);",
+      "$0"
+    ],
     "description": "/* 8-way Or */"
   },
   "Or16": {
-    "prefix": ["Or16"],
-    "body": ["Or16(a=$1, b=$2, out=$3);"],
+    "prefix": [
+      "Or16"
+    ],
+    "body": [
+      "Or16(a=$1, b=$2, out=$3);",
+      "$0"
+    ],
     "description": "/* 16-bit Or */"
   },
   "PC": {
-    "prefix": ["PC"],
-    "body": ["PC(in=$1, load=$2, inc=$3, reset=$4, out=$5);"],
+    "prefix": [
+      "PC"
+    ],
+    "body": [
+      "PC(in=$1, load=$2, inc=$3, reset=$4, out=$5);",
+      "$0"
+    ],
     "description": "/* Program Counter */"
   },
   "RAM8": {
-    "prefix": ["RAM8"],
-    "body": ["RAM8(in=$1, load=$2, address=$3, out=$4);"],
+    "prefix": [
+      "RAM8"
+    ],
+    "body": [
+      "RAM8(in=$1, load=$2, address=$3, out=$4);",
+      "$0"
+    ],
     "description": "/* 8-word RAM */"
   },
   "RAM64": {
-    "prefix": ["RAM64"],
-    "body": ["RAM64(in=$1, load=$2, address=$3, out=$4);"],
+    "prefix": [
+      "RAM64"
+    ],
+    "body": [
+      "RAM64(in=$1, load=$2, address=$3, out=$4);",
+      "$0"
+    ],
     "description": "/* 64-word RAM */"
   },
   "RAM512": {
-    "prefix": ["RAM512"],
-    "body": ["RAM512(in=$1, load=$2, address=$3, out=$4);"],
+    "prefix": [
+      "RAM512"
+    ],
+    "body": [
+      "RAM512(in=$1, load=$2, address=$3, out=$4);",
+      "$0"
+    ],
     "description": "/* 512-word RAM */"
   },
   "RAM4K": {
-    "prefix": ["RAM4K"],
-    "body": ["RAM4K(in=$1, load=$2, address=$3, out=$4);"],
+    "prefix": [
+      "RAM4K"
+    ],
+    "body": [
+      "RAM4K(in=$1, load=$2, address=$3, out=$4);",
+      "$0"
+    ],
     "description": "/* 4K RAM */"
   },
   "RAM16K": {
-    "prefix": ["RAM16K"],
-    "body": ["RAM16K(in=$1, load=$2, address=$3, out=$4);"],
+    "prefix": [
+      "RAM16K"
+    ],
+    "body": [
+      "RAM16K(in=$1, load=$2, address=$3, out=$4);",
+      "$0"
+    ],
     "description": "/* 16K RAM */"
   },
   "Register": {
-    "prefix": ["Register"],
-    "body": ["Register(in=$1, load=$2, out=$3);"],
+    "prefix": [
+      "Register"
+    ],
+    "body": [
+      "Register(in=$1, load=$2, out=$3);",
+      "$0"
+    ],
     "description": "/* 16-bit register */"
   },
   "ROM32K": {
-    "prefix": ["ROM32K"],
-    "body": ["ROM32K(address=$1, out=$2);"],
+    "prefix": [
+      "ROM32K"
+    ],
+    "body": [
+      "ROM32K(address=$1, out=$2);",
+      "$0"
+    ],
     "description": "/* Instruction memory of the Hack platform (ROM, built-in) */"
   },
   "Screen": {
-    "prefix": ["Screen"],
-    "body": ["Screen(in=$1, load=$2, address=$3, out=$4);"],
+    "prefix": [
+      "Screen"
+    ],
+    "body": [
+      "Screen(in=$1, load=$2, address=$3, out=$4);",
+      "$0"
+    ],
     "description": "/* Screen memory map (built-in) */"
   },
   "Xor": {
-    "prefix": ["Xor"],
-    "body": ["Xor(a=$1, b=$2, out=$3);"],
+    "prefix": [
+      "Xor"
+    ],
+    "body": [
+      "Xor(a=$1, b=$2, out=$3);",
+      "$0"
+    ],
     "description": "/* Xor gate */"
   }
 }
