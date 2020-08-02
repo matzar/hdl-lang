@@ -13,7 +13,7 @@
     },
     {
       "name": "constant.numeric",
-      "match": "(?!\\[)(\\d+)(?=\\])"
+      "match": "(?!\\[)(\\d+..\\d+|\\d+)(?=\\])"
     },
     {
       "name": "support.constant",
