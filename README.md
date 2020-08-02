@@ -8,6 +8,8 @@
 
 - Press `ctr`+`space` to see all the 37 chips.
 
+- When you've filled out the snippet the next `tab` press will take you to a new line.
+
 ## Syntax Highlighting
 
 The Syntax Highlighting was developed primarly for [Noctis Minimum Theme](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis).
