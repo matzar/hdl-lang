@@ -25,3 +25,7 @@ The Syntax Highlighting was developed primarly for [Noctis Minimum Theme](https:
 ### Monokai Dimmed
 
 ![MonokaiDimmed](img/MonokaiDimmed.png)
+
+## Future Development
+
+To add snippets and syntax highlighting for Jack/Assembly.
