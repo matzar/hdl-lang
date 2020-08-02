@@ -2,17 +2,15 @@
 
 ![gif](img/Snippets.gif)
 
-## Features:
+## Snippets
 
-- Start typing "chip" and you'll be able to see all the 37 chips.
+- Press `ctr`+`space` to see all the 37 chips.
 
-- Type individual chip names and they will also pop up.
-
-- Press `tab` when you've filled out the snippet and it will create and take you to the new line.
+## Syntax Highlighting
 
 The Syntax Highlighting was developed primarly for [Noctis Minimum Theme](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis).
 
-## Theme examples:
+## Other Themes Examples
 
 ### Noctis Minimus
 
