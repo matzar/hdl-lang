@@ -36,6 +36,16 @@
           ".hdl"
         ],
         "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "cmp",
+        "aliases": [
+          "CMP"
+        ],
+        "extensions": [
+          ".cmp"
+        ],
+        "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
@@ -43,6 +53,11 @@
         "language": "hdl",
         "scopeName": "source.hdl",
         "path": "./syntaxes/hdl.tmLanguage.json"
+      },
+      {
+        "language": "cmp",
+        "scopeName": "source.cmp",
+        "path": "./syntaxes/cmp.tmLanguage.json"
       }
     ],
     "snippets": [
