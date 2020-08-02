@@ -12,7 +12,7 @@
 
 The Syntax Highlighting was developed primarly for [Noctis Minimum Theme](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis).
 
-## Theme Examples
+## Themes Examples
 
 ### Noctis Minimus
 
