@@ -1,4 +1,4 @@
-# Nand2Tetris HDL Language Support
+# Nand2Tetris HDL Language Support [![Installs](https://img.shields.io/visual-studio-marketplace/i/matzar.hdl-lang)](https://marketplace.visualstudio.com/items?itemName=matzar.hdl-lang)
 
 ![gif](img/Snippets.gif)
 
