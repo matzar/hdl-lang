@@ -3,7 +3,7 @@
   "displayName": "Nand2Tetris HDL",
   "description": "Extension provides Snippets and Syntax Highlighting for HDL from Nand2Tetris course.",
   "publisher": "matzar",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "icon": "img/icon.png",
   "repository": {
